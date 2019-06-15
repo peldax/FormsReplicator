@@ -105,6 +105,12 @@ class Container extends Nette\Forms\Container
 	{
 		return $this->getComponents($recursive, \Nette\Forms\Container::class);
 	}
+	
+	
+	public function getContainerCount(bool $recursive =  FALSE) : int
+	{
+		return \iterator_count($this->getContainers($recursive));    
+	}
 
 
 	/**
