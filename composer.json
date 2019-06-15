@@ -1,5 +1,5 @@
 {
-	"name": "kdyby/forms-replicator",
+	"name": "peldax/forms-replicator",
 	"type": "library",
 	"description": "Nette forms container replicator aka addDynamic",
 	"keywords": ["nette", "kdyby", "forms", "replicator", "addDynamic"],
